@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>To-Do List</h1>
+        </div>
+        <form action="/add" method="post">
+            <input type="text" class="task-input" name="task" placeholder="Enter a new task" required>
+            <button type="submit" class="add-btn">Add Task</button>
+        </form>
+        <ul class="task-list">
+            <!-- Tasks will be dynamically rendered here -->
+        </ul>
+    </div>
+</body>
+</html>
